@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Form</h2>
+    <form>
+        
+        <input/><br><br>
+
+        
+        <input/><br><br>
+
+     <button>Color</button>
+    </form>
+<script>
+function change(){
+    var col=Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.background='#'+col;
+}
+setInterval(change,1000);
+</script>
+</body>
+</html>
